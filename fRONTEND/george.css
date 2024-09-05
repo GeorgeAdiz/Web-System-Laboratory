@@ -1,0 +1,19 @@
+.btn{
+    text-decoration: solid;
+    border: 5px solid rgb(25, 3, 104);
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(66, 219, 247);
+    color: black;
+    padding: 15px;
+}
+@font-face {
+    font-family: ProtestGuerrilla-Regular;
+    src: url('ProtestGuerrilla-Regular.ttf');
+}
+body{
+    font-family: ProtestGuerrilla-Regular;
+}
