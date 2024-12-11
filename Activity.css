@@ -1,0 +1,131 @@
+body{
+    background-color: #9DB2BF;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    margin: 5%;
+    gap: 20px;
+}
+
+.add-search{
+    justify-content: space-between;
+}
+
+.header-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.search{
+    background-color: #DDE6ED;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 100px; 
+    max-width: 600px; 
+    width: 100%;
+    flex-grow: 1;
+    min-height: 300%;
+    height: auto;
+}
+
+.list-searchpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.song-info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.unlist{
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.song-title{
+    font-weight: bold;
+}
+
+.delete{
+    background-color: #1E5F74;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    font-size: 1.1em;
+    margin: 20px;
+    margin-left: auto;
+}
+
+.delete:hover{
+    background-color: #526D82;
+}
+
+hr {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.search-song-part,
+#song-title,
+#artist {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 20px;
+    border: 2px solid #9DB2BF;
+    border-radius: 3px;
+    background-color: #9DB2BF;
+}
+
+/* add */
+
+.add{
+    background-color: #DDE6ED;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 450px; 
+    max-width: 300px; 
+    height: 400px;
+    width: 50%;
+    min-height: 300px;
+    flex-shrink: 0;
+}
+
+.add-header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Button-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+#add-button{
+    background-color: #1E5F74;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 55%;
+    width: 20%;
+    font-size: 1.2em;
+}
+
+#add-button:hover{
+    background-color: #526D82;
+}
